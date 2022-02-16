@@ -4,28 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Launch countdown timer</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/colors.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
+    
+  <title>Launch countdown timer</title>
+
 </head>
 <body>
+  <section class="container">
+    <h1 class="title">W E ' R E &nbsp; L A U N C H I N G &nbsp; S O O N</h1>
+    <div class="counter">
+      <div class="timer" id="days">
+        <div class="display">
+          <p class="number"></p>
+        </div>
+        <p class="label">D A Y S</p>
+      </div>
+      
+      <div class="timer" id="hours">
+        <div class="display">
+          <p class="number"></p>
+        </div>
+        <p class="label">H O U R S</p>
+      </div>
+        
+      <div class="timer" id="minutes">
+        <div class="display">
+          <p class="number"></p>
+        </div>
+        <p class="label">M I N U T E S</p>
+      </div>
+        
+      <div class="timer" id="seconds">
+        <div class="display">
+          <p class="number"></p>
+        </div>
+        <p class="label">S E C O N D S</p>
+      </div>
+    </div>
 
-  We're launching soon
+    <div class="logos">
+      <img src="./images/icon-facebook.svg">
+      <img src="./images/icon-pinterest.svg">
+      <img src="./images/icon-instagram.svg">
+    </div>
 
-  Days
-  Hours
-  Minutes
-  Seconds
+
+  </section>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+  
+  
+  
+  
+  
+  <script src="./js/main.js"></script>
 </body>
 </html>

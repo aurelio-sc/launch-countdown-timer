@@ -1,0 +1,56 @@
+body{
+    background-color: var(--Very-dark-blue);
+    background-image: url("../images/pattern-hills.svg"), url("../images/bg-stars.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom, top;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    flex-direction: column;
+}
+
+.title{
+    color: var(--White);
+    font-size: 1.5rem;
+}
+
+.counter{
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark-desaturated-blue);
+    width: 8rem;
+    height: 8rem;
+    border-radius: 0.5rem;
+    font-size: 4rem;
+    color: var(--Soft-red);
+    box-shadow: 0 0.5rem var(--Very-dark-mostly-black-blue);
+}
+
+.label{
+    margin-top: 1.5rem;
+    text-align: center;
+    color: var(--Grayish-blue);
+    font-size: 0.875rem;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 2rem;
+    position: absolute;
+    bottom: 4rem;
+}
