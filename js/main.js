@@ -14,7 +14,7 @@ function updateTimer() {
   const timeArray = [d,h,m,s];
   let counter=0;
 
-const timers = [...document.querySelectorAll(".number")];
+  const timers = [...document.querySelectorAll(".number")];
 
 timers.forEach(function(element){
   element.innerHTML=timeArray[counter];
