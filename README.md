@@ -4,7 +4,7 @@
 
 ## Project description:
 
-A countdown timer to a specific date (jul 27, 2022 00:00:00).
+A responsive countdown timer to a specific date (jul 27th, 2022 00:00:00) using Date.parse().
 
 ## Live project:
 
